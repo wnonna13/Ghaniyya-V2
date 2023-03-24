@@ -36,4 +36,25 @@ video {
   border: 2px solid red;
   padding: 0 40px;
   margin: 0 50px;
+  /* background-image: url("/images/promos/darkspotlight.jpg");
+  background-size: 1000px;
+  height: 700px; */
+  position: relative;
+  z-index: 10;
 }
+
+.content {
+  border: 2px solid yellow;
+  height: 400px;
+  background-image: url("/images/promos/darkspotlight.jpg");
+  background-size: 1000px;
+  height: 700px;
+  position: relative;
+}
+
+/*#about img {
+  border: 2px solid yellow;
+  max-width: 100%;
+  position: relative;
+  z-index: -10;
+} */
