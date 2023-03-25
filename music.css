@@ -255,8 +255,8 @@ span {
 }
 
 .column {
-  flex: 33%;
-  max-width: 33%;
+  flex: 25%;
+  max-width: 25%;
   margin: 0 15px;
 }
 
