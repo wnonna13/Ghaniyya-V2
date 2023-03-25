@@ -279,7 +279,7 @@ span {
 }
 
 .column-double {
-  flex: 50%;
+  flex: 48%;
   max-width: 50%;
   margin: 0 15px;
 }
