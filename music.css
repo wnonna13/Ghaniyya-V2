@@ -266,6 +266,30 @@ span {
   width: 100%;
 }
 
+.column-single {
+  flex: 13%;
+  max-width: 13%;
+  margin: 0 15px;
+}
+
+.column-single img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.column-double {
+  flex: 50%;
+  max-width: 50%;
+  margin: 0 15px;
+}
+
+.column-double img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
 @media screen and (max-width: 600px) {
   .column,
   .small {
