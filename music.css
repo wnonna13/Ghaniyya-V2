@@ -101,7 +101,7 @@ li {
 
 img {
   height: inherit;
-  width: inherit;
+  min-width: auto;
 }
 
 .content {
@@ -244,4 +244,32 @@ span {
   left: 0;
 
   z-index: 1;
+}
+
+/* NEWWWW */
+
+.rw {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .column,
+  .small {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
