@@ -290,7 +290,7 @@ span {
   width: 100%;
 }
 
-#no-show-but-small {
+.no-show-but-small {
   display: none;
 }
 
@@ -303,13 +303,13 @@ span {
     max-width: 100%;
   }
 
-  #no-show-but-small {
+  .no-show-but-small {
     display: block;
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
   }
-  #no-show {
+  .no-show {
     display: none;
   }
 }
