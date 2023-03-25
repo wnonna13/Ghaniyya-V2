@@ -290,10 +290,26 @@ span {
   width: 100%;
 }
 
+#no-show-but-small {
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
   .column,
-  .small {
+  .small,
+  .column-double,
+  .column-single {
     flex: 100%;
     max-width: 100%;
+  }
+
+  #no-show-but-small {
+    display: block;
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  #no-show {
+    display: none;
   }
 }
