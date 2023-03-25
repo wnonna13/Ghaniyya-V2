@@ -1,94 +1,109 @@
 body {
-  background-color: #0e0e0e;
-  color: lightgray;
-}
-
-/* NAVBAR */
-
-.navbar-brand {
-  color: red;
-  display: flex;
-  font-size: 25px;
-}
-
-.navbar-brand,
-.nav-item,
-i {
-  font-size: 25px;
-}
-
-/* INDEX - HERO */
-
-video {
+  text-align: center;
   width: 100%;
   height: 100%;
-  opacity: 0.5;
+  background-color: black;
+  font-family: Raleway;
 }
 
-/* ABOUT */
-#about {
-  border: 2px solid red;
-  /*background-image: url("/images/promos/darkspotlight.jpg");
-  background-size: 1000px;
-  height: 700px; */
-  position: relative;
+/* NAV-BAR */
+
+.nav {
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+  font-size: 25px;
+  padding: 0 10px;
+}
+
+.nav,
+.social,
+.name {
+  color: #e6e6e66b;
+}
+
+.nav:hover {
+  background-color: #f9885e;
+  color: black;
+  padding: 0 10px;
+}
+
+.nav-bar {
+  background-color: #000000b6;
+  position: fixed;
+  width: 100%;
+  flex-wrap: wrap;
+  text-transform: lowercase;
+  left: 0px;
   z-index: 10;
+}
+
+ul {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-}
-
-.bg-img {
-  min-height: 100vh;
-  margin-right: 0px;
-  margin-left: 150px;
-}
-
-.paragraph-one {
-  margin-top: 35%;
-  margin-left: 15%;
+  justify-content: space-between;
+  align-items: center;
   padding: 0px;
-  position: absolute;
-  z-index: 10;
 }
 
-/* MUSIC */
-.thumbnail {
-  border: 2px solid green;
+li {
+  list-style-type: none;
+  display: inline-block;
 }
 
-/*.paragraph-one {
-  border: 2px solid yellow;
-  height: 400px;
-  width: 280px;
-  top: -40px;
-  z-index: 20;
-}*/
-
-/*#about img {
-  border: 2px solid yellow;
-  max-width: 100%;
-  position: relative;
-  z-index: -10;
-} */
-
-@media (max-width: 568px) {
-  .navbar-brand {
-    margin-left: 0;
-  }
-
-  .bg-img {
-    margin: 0;
-    left: -45px;
-  }
-
-  .paragraph-one {
-    text-align: center;
-    padding: 200px 150px 20px 20px;
-  }
+.home {
+  margin-left: 20px;
 }
 
-/*ALBUMS */
+.social {
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+  margin-top: 25px;
+}
+
+.social:hover {
+  color: #f9885e;
+}
+
+.icons {
+  margin-top: 40px;
+}
+
+.youtube {
+  font-size: 35px;
+  margin-right: 20px;
+}
+
+.instagram {
+  font-size: 35px;
+}
+
+.spotify {
+  font-size: 35px;
+}
+
+.instagram,
+.spotify,
+.youtube {
+  width: 60px;
+  height: 60px;
+}
+
+.text {
+  margin-top: 10px;
+}
+
+.name {
+  font-size: 40px;
+  letter-spacing: 0.2ch;
+}
+
+/*  BODY */
+
+img {
+  height: inherit;
+  width: inherit;
+}
+
 .content {
   padding-top: 180px;
   display: grid;
@@ -212,6 +227,13 @@ video {
   background-size: cover;
   grid-row-end: span 1;
 }
+
+i {
+  color: white;
+  font-size: 50px;
+}
+
+/* LINKS */
 
 span {
   position: absolute;
