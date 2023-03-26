@@ -124,11 +124,8 @@ video {
 
 /* CONTACT */
 
-#contact h2 {
-  margin-top: 300px;
-}
-
-#contact h3 {
+#contact .container {
+  margin-top: 200px;
   margin-bottom: 200px;
 }
 
