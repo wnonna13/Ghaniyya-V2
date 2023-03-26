@@ -3,6 +3,11 @@ body {
   color: lightgray;
 }
 
+h2 {
+  font-size: 40px;
+  text-transform: lowercase;
+}
+
 /* NAVBAR */
 
 .navbar-brand {
@@ -27,15 +32,15 @@ video {
 
 /* ABOUT */
 #about {
-  border: 2px solid red;
-  /*background-image: url("/images/promos/darkspotlight.jpg");
-  background-size: 1000px;
-  height: 700px; */
   position: relative;
   z-index: 10;
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+#about h2 {
+  margin-bottom: 75px;
 }
 
 .bg-img {
@@ -45,7 +50,7 @@ video {
 }
 
 .paragraph-one {
-  margin-top: 35%;
+  margin-top: 15%;
   margin-left: 15%;
   padding: 0px;
   position: absolute;
@@ -53,11 +58,11 @@ video {
 }
 
 /* MUSIC */
-.thumbnail {
-  border: 2px solid green;
-}
 
-/* NEWWWW */
+#music h2 {
+  text-align: right;
+  margin: 100px;
+}
 
 .content-container img {
   filter: grayscale(1);
