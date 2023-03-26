@@ -30,6 +30,11 @@ i:hover {
 
   border-radius: 5px;
 }
+
+button {
+  border: 2px solid white;
+  color: white;
+}
 /* INDEX - HERO */
 
 video {
