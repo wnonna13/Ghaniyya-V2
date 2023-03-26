@@ -30,6 +30,17 @@ video {
   opacity: 0.5;
 }
 
+#video_box {
+  position: relative;
+}
+
+#video_overlays {
+  position: absolute;
+  z-index: 20;
+  max-width: 300px;
+  top: 70px;
+}
+
 /* ABOUT */
 #about {
   position: relative;
