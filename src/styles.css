@@ -122,6 +122,10 @@ video {
   display: none;
 }
 
+.flip {
+  transform: scaleX(-1);
+}
+
 /* CONTACT */
 
 #contact .container {
