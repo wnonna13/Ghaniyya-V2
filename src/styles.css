@@ -158,6 +158,24 @@ video {
   margin-bottom: 200px;
 }
 
+#contact h2 {
+  margin-bottom: 50px;
+}
+
+#contact h3,
+#contact i {
+  margin-left: 10px 0px 10px 50px;
+}
+
+#contact h3 {
+  font-size: 25px;
+}
+
+#contact i {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
 @media (max-width: 568px) {
   .navbar-brand {
     margin-left: 0;
