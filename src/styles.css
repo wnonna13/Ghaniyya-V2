@@ -5,7 +5,7 @@ body {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 50px;
   text-transform: lowercase;
   font-family: "Homemade Apple", cursive;
 }
@@ -28,7 +28,8 @@ i {
 
 .nav-item {
   font-family: "Homemade Apple", cursive;
-  margin-right: 15px;
+  margin-right: 5px;
+  margin-left: 10px;
 }
 
 .nav-link:hover,
@@ -95,7 +96,7 @@ video {
 
 #music h2 {
   text-align: right;
-  margin: 100px;
+  margin: 100px 100px 40px 100px;
 }
 
 .content-container img {
@@ -163,7 +164,7 @@ video {
 /* CONTACT */
 
 #contact .container {
-  margin-top: 200px;
+  margin-top: 300px;
   margin-bottom: 200px;
   text-align: center;
 }
