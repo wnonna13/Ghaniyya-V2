@@ -232,4 +232,11 @@ video {
   #music h2 {
     text-align: center;
   }
+
+  .content-container img {
+    filter: grayscale(0);
+    transition: all 150ms ease-in-out;
+    border: 2px solid black;
+    opacity: 0.8;
+  }
 }
