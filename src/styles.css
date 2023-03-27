@@ -213,4 +213,8 @@ video {
   .no-show {
     display: none;
   }
+
+  #music h2 {
+    text-align: center;
+  }
 }
