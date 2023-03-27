@@ -26,6 +26,11 @@ i {
   transition: 150ms all ease-in-out;
 }
 
+.nav-item {
+  font-family: "Homemade Apple", cursive;
+  margin-right: 15px;
+}
+
 .nav-link:hover,
 i:hover {
   color: #ff0fcb;
@@ -185,6 +190,10 @@ video {
 @media (max-width: 568px) {
   .navbar-brand {
     margin-left: 0;
+  }
+
+  .nav-item {
+    margin-left: 10px;
   }
 
   /* ABOUT */
