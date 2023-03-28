@@ -12,9 +12,15 @@ h2 {
 
 /* NAVBAR */
 
+.combined {
+  width: 100%;
+  height: auto;
+}
+
 .navbar-brand {
   display: flex;
   font-size: 25px;
+  max-width: 200px;
 }
 
 .navbar-brand,
