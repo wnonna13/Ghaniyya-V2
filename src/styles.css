@@ -70,6 +70,7 @@ video {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 150px;
 }
 
 #about h2 {
@@ -96,7 +97,7 @@ video {
 
 #music h2 {
   text-align: right;
-  margin: 100px 100px 40px 100px;
+  margin: 50px 100px 40px 100px;
 }
 
 .content-container img {
