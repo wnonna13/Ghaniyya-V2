@@ -206,6 +206,15 @@ video {
   margin-top: 50px;
 }
 
+/* FOOTER */
+.code-author {
+  text-align: center;
+  font-family: "Homemade Apple", cursive;
+  color: darkslategray;
+}
+
+/* MEDIA */
+
 @media (max-width: 568px) {
   .navbar-brand {
     margin-left: 0;
