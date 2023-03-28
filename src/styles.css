@@ -63,6 +63,10 @@ video {
   top: 70px;
 }
 
+.hero {
+  margin-top: 25px;
+}
+
 /* ABOUT */
 #about {
   position: relative;
